@@ -20,7 +20,9 @@ namespace Zadanie4
 
             for (int i = a; i <= b; i=i+2)
             {
-                if (i % 2 == 0) Console.Write("{0} ", i);
+                // if (i % 2 == 0) Console.Write("{0} ", i);
+
+                Console.Write("{0} ", i);
             }
 
             Console.ReadKey();
